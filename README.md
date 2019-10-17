@@ -2,6 +2,10 @@
 
 ## go-builder
 
+```
+docker pull 242617/go-builder:latest
+```
+
 Alpine-based image for building Golang 1.13 applications.
 
 | Command                        | Usage        |
@@ -12,6 +16,10 @@ Alpine-based image for building Golang 1.13 applications.
 | Push image to hub              | `make push`  |
 
 ## docker-builder
+
+```
+docker pull 242617/docker-builder:latest
+```
 
 Alpine-based image for building Docker containers.
 
