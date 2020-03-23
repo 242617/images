@@ -15,6 +15,12 @@ Alpine-based image for building Golang 1.13 applications.
 | Save image to file             | `make save`  |
 | Push image to hub              | `make push`  |
 
+### Changes
+
+#### 1.0.1.
+
+Add `protoc`, `protoc-gen-go`.
+
 ## docker-builder
 
 ```

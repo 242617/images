@@ -7,4 +7,6 @@ RUN apk add --update \
     protobuf
 RUN rm -rf /var/cache/apk
 
+RUN go get github.com/golang/protobuf/protoc-gen-go
+
 WORKDIR /root
