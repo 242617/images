@@ -1,5 +1,4 @@
-FROM golang:1.13-alpine
-MAINTAINER 242617@gmail.com
+FROM golang:1.16-alpine
 
 RUN apk add --update \
     alpine-sdk \
